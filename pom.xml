@@ -25,6 +25,23 @@
         </dependency>
     </dependencies>
 
+
+    <repositories>
+        <repository>
+            <id>deconvolute-ai-dev-maven</id>
+            <name>deconvolute-ai-dev-maven</name>
+            <url>https://deconvolute-ai-dev-654654384501.d.codeartifact.us-west-2.amazonaws.com/maven/maven/</url>
+        </repository>
+    </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>deconvolute-ai-dev-maven</id>
+            <name>deconvolute-ai-dev-maven</name>
+            <url>https://deconvolute-ai-dev-654654384501.d.codeartifact.us-west-2.amazonaws.com/maven/maven/</url>
+        </repository>
+    </distributionManagement>
+
     <build>
         <plugins>
             <plugin>
